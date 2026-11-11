@@ -1,15 +1,28 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #fff7ed;
+  background-color: #e4e4e4;
   font-family: "Inter", sans-serif;
 }
 
 #root {
-  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+header{
+  background-color: #9c9b9b;
+}
+
+footer{
+  background-color: #9c9b9b;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
