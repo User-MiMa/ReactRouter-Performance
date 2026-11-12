@@ -18,6 +18,9 @@ body {
 
 header{
   background-color: #9c9b9b;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 footer{
@@ -25,4 +28,8 @@ footer{
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.HomeButton{
+  margin-right: auto;
 }
