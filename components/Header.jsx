@@ -5,6 +5,7 @@ export default function(){
         <header>
             <Link className="HomeButton" to="/">#ReactRouterPage</Link>
             <Link to="/about">About</Link>
+            <Link to="/vowels">Vowels</Link>
         </header>
     );
 }
