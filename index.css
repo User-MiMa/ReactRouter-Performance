@@ -33,3 +33,16 @@ footer{
 .HomeButton{
   margin-right: auto;
 }
+
+.home-content, .about-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 200px;
+}
+
+footer{
+  text-align: center;
+}
