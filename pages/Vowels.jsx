@@ -18,7 +18,6 @@ export default function Vowels(){
             <Link to={`/vowels/${vowel.id}`}>
                 <h2>{vowel.name}</h2>
                 <img src={vowel.imageUrl} alt={vowel.name} />
-                <p>{vowel.description}</p>
             </Link>
         </div>
     ))
