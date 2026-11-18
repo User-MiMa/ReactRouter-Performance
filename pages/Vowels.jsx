@@ -17,7 +17,7 @@ export default function Vowels(){
         <div key={vowel.id}>
             <Link to={`/vowels/${vowel.id}`}>
                 <h2>{vowel.name}</h2>
-                <img src={vowel.imageUrl}/>
+                <img src={vowel.imageUrl} alt={vowel.name} />
                 <p>{vowel.description}</p>
             </Link>
         </div>
@@ -26,10 +26,10 @@ export default function Vowels(){
     return(
         <>
         <Header/>
-        <div className="vowels-content">
+        <main id="main-content" className="vowels-content">
                     <h1>Vowels page</h1>
                     {vowels}
-                </div>
+                </main>
         <Footer/>
         </>
     );
