@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Vowels from './pages/Vowels';
 
+import "./server"
+
 function App() {
   return (
     <BrowserRouter>
