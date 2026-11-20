@@ -13,11 +13,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/vowels" element={<Vowels />} />
-          <Route path="/vowels/:id" element={<VowelDetail />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="vowels" element={<Vowels />} />
+          <Route path="vowels/:id" element={<VowelDetail />} />
         </Route>
       </Routes>
     </BrowserRouter>
