@@ -27,6 +27,13 @@ header nav{
   gap: 15px;
 }
 
+header nav a.active {
+  text-decoration: none;
+  background-color: #6b6b6b;
+  padding: 4px 12px;
+  border-radius: 0;
+}
+
 footer{
   background-color: #9c9b9b;
   position: fixed;
