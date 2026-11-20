@@ -1,5 +1,3 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer"; 
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -23,13 +21,9 @@ export default function Vowels(){
     ))
 
     return(
-        <>
-        <Header/>
         <main id="main-content" className="vowels-content">
-                    <h1>Vowels page</h1>
-                    {vowels}
-                </main>
-        <Footer/>
-        </>
+            <h1>Vowels page</h1>
+            {vowels}
+        </main>
     );
 }
